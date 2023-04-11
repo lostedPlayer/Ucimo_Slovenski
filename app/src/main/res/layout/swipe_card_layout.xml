@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_card_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="35dp"
+    app:cardUseCompatPadding="true">
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/swipe_card_textView_foregin_Word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/baloo"
+            android:text="Dobar Dan"
+            android:textAlignment="center"
+            android:textColor="@color/my_card_text_color_main"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/swipe_card_textView_translated_Word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/swipe_card_textView_foregin_Word"
+            android:layout_centerHorizontal="true"
+            android:text="Dobar Dan"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/swipe_card_imageView_play_word_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/swipe_card_textView_translated_Word"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/play_sound_animation" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/swipe_card_imageView_play_word_audio"
+            android:layout_centerHorizontal="true"
+            android:text="@string/swipe_card_press_word_to_play_sound"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

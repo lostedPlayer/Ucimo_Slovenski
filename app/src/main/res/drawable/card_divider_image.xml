@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="450dp"
+    android:height="3dp"
+    android:viewportWidth="1"
+    android:viewportHeight="4">
+  <path
+      android:pathData="M0,0h113v2h-113z"
+      android:fillColor="@color/pick_excercise_card_tv_color"/>
+</vector>

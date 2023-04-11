@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".Quiz_activities.listening_Quiz_activity">
+
+    <TextView
+        android:id="@+id/listening_quiz_textView_tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/baloo"
+        android:text="@string/listening_quiz_textView_tutorial"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/listening_quiz_textView_learning_word"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listening_quiz_textView_tutorial"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/baloo"
+        android:text="ZIVIJO"
+        android:textColor="@color/my_card_text_color_main"
+        android:textSize="50sp" />
+
+
+    <LinearLayout
+        android:id="@+id/Button_layout_listening_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listening_quiz_textView_learning_word"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/listening_quiz_Button_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_white_gray_stroke"
+            android:fontFamily="@font/baloo"
+            android:text="Dobar Dan"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/listening_quiz_Button_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_white_gray_stroke"
+            android:fontFamily="@font/baloo"
+            android:text="Dobar Dan"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/listening_quiz_Button_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_bc_with_white_stroke"
+            android:fontFamily="@font/baloo"
+            android:text="Dobar Dan"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/listening_quiz_Home_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button_layout_listening_quiz"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/My_card_bc"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/my_card_text_color_main"
+        android:text="Nazad Na Pocetnu" />
+
+
+</RelativeLayout>

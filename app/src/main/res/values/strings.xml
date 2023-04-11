@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ucimo Slovenski</string>
+    <string name="swipe_card_press_word_to_play_sound">Klikni na rijec da poslusas</string>
+    <string name="swipe_card_swiping_tutorial">Klizni karticu u stranu da predjes na sledecu rijec</string>
+    <string name="listening_quiz_textView_tutorial">Odaberite pravi odgovor</string>
+    <string name="No_Internet_connection">Provjerite Internet Konekciju</string>
+    <string name="Quiz_result_alert_dialog_go_home">Pocetna</string>
+    <string name="Quiz_result_alert_dialog_cancle">Nazad</string>
+    <string name="Quiz_result_alert_dialog_title">Vasi Rezultati</string>
+    <string name="words_in_excercise_text_holder"> Rijeci"</string>
+    <string name="kartice_sa_rijecima">Karte sa rijecima</string>
+    <string name="igra_ucenja">Igra ucenja</string>
+</resources>

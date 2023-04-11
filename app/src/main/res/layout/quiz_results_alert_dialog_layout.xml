@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/girl_with_books_ilustration" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/baloo"
+        android:text="Tacnih Odgovora:"
+        android:textColor="@color/My_green_correct_answer"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/quiz_alertDialog_textView_corectAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/baloo"
+        android:text="20"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/baloo"
+        android:text="Netacnih Odgovora:"
+        android:textColor="@color/My_red_incorrect_answer"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/quiz_alertDialog_textView_wrongAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/baloo"
+        android:text="20"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/button_quizResults_dialog"
+        android:background="@drawable/button_background"
+        android:text="@string/Quiz_result_alert_dialog_go_home"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
